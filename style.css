@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+    margin: 0;
+    padding-top: 800px;
+}
+.profile {
+    width: 200px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    border-style: dotted;
+    padding:5px;
+    border-color:darkgoldenrod;
+}
+
+#welcome{
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color:floralwhite;
+    display: table;
+    height: 100%;
+    width:100%;
+        
+}
+.welcome_div {
+    display:table-cell;
+    position:relative;
+    vertical-align: middle;
+}
+h1{
+font-family: fantasy;
+color:dodgerblue;  
+}
+p{
+max-width: 450px;
+margin: 25px auto;
+font-size: 17px;
+font-family:cursive;
+color:cornflowerblue;
+}
